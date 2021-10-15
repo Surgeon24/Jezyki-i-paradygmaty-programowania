@@ -29,10 +29,43 @@ void tablica_2d(){
     }
 }
 
+//////////////////////////////////////////////////////////////////////////////////
+#include "math.h"
+int main (int argc, char *argv[]) {
+    for(int i = 0; i < argc ; ++i) {
+        cout << argv[i] <<endl;
+    }
+    string a = argv[1];
+    int x = (int)argv[2];
+    int y = (int)argv[3];
+    int z = (int)argv[4];
+    int h = (int)argv[5];
 
-int main()
-{
-    cout << "Hello, World!\n\n";
-    tablica_2d();
+    if (a == "add")
+        cout << "add: " << x + y;
+    else if (a == "subtract")
+        cout << "subtract: " << x - y;
+    else if (a == "volume"){
+        cout << "volume";
+        x = (x+y) * sqrt(z*z - (y-x)*(y-x)/4) / 2 * h;
+        cout << x;
+    }
+    else if (a == "help"){
+        cout << "help";
+    }
+    else {
+        cout << "wystapil blad";
+    }
+
     return 0;
 }
+
+
+
+/*
+int main(int argc, char *argv[])
+{
+    cout << "Hello, World!\n\n";
+
+    return 0;
+}*/
