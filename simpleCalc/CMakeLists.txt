@@ -3,4 +3,4 @@ project(project_1_erm)
 
 set(CMAKE_CXX_STANDARD 20)
 
-add_executable(project_1_erm main.cpp)
+add_executable(project_1_erm src/main.cpp)

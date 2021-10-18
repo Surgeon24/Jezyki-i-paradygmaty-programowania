@@ -1,6 +1,9 @@
 #include <iostream>
+#include "math.h"
+#include <sstream>
 using namespace std;
 
+//////////////////////////////////////////////////////////////////////////////////
 void petla_for(){
     for (int i = 0; i < 5; i++){
         cout << "JiPP2\n";
@@ -8,7 +11,7 @@ void petla_for(){
 }
 
 void tablica_2d(){
-    int x,y,z;
+    int x,y;
     cout << "Podaj rozmiar tablicy (x,y): ";
     cin >> x;
     cin >> y;
@@ -30,8 +33,7 @@ void tablica_2d(){
 }
 
 //////////////////////////////////////////////////////////////////////////////////
-#include "math.h"
-#include <sstream>
+
 
 void manual(){
     cout << "Simple calculatur\n"
@@ -47,44 +49,38 @@ void manual(){
             "   [a] i [b] - podstawa trapezu, [c] - bok trapezu, [h] - wysokosc graniastoslupa\n";
 }
 
-int main (int argc, char *argv[]) {
-    for(int i = 0; i < argc ; ++i) {
-        cout << argv[i] <<endl;
-    }
-    string a = argv[1];
 
-    if (a == "add") {
-        int my1, my2;
-        stringstream convert1(argv[2]);
-        convert1 >> my1;
-        stringstream convert2(argv[3]);
-        convert2 >> my2;
-        cout << "add: " << my1 << " + " << my2 << " = " << my1 + my2;
+int main (int argc, char *argv[]) {
+    //print arg
+    cout << endl;
+    for(int i = 0; i < argc ; ++i) {
+        cout << argv[i] << "  ";
     }
-    else if (a == "subtract") {
-        int my1, my2;
+    cout << endl;
+    //convert arguments to variables
+    string a = argv[1];
+    int my1, my2, my3, my4;
+    if (argc >= 4){
         stringstream convert1(argv[2]);
         convert1 >> my1;
         stringstream convert2(argv[3]);
         convert2 >> my2;
-        cout << "subtract: " << my1 - my2;
     }
-    else if (a == "volume"){
-        cout << "volume: ";
-        int my1, my2, my3, my4;
-        stringstream convert1(argv[2]);
-        convert1 >> my1;
-        stringstream convert2(argv[3]);
-        convert2 >> my2;
+    if (argc == 6){
         stringstream convert3(argv[4]);
         convert3 >> my3;
         stringstream convert4(argv[5]);
         convert4 >> my4;
-        cout << (my1+my2) * sqrt(my3*my3 - (my2-my1)*(my2-my1)/4) / 2 * my4;
     }
-    else if (a == "help"){
+    //calculator
+    if (a == "add" && argc == 4)
+        cout << "add: " << my1 << " + " << my2 << " = " << my1 + my2;
+    else if (a == "subtract" && argc == 4)
+        cout << "subtract: " << my1 - my2;
+    else if (a == "volume" && argc == 6)
+        cout << "volume: " << (my1+my2) * sqrt(my3*my3 - (my2-my1)*(my2-my1)/4) / 2 * my4;
+    else if (a == "help")
         manual();
-    }
     else {
         cout << "wystapil blad!\n";
         manual();
@@ -92,13 +88,3 @@ int main (int argc, char *argv[]) {
 
     return 0;
 }
-
-
-
-/*
-int main(int argc, char *argv[])
-{
-    cout << "Hello, World!\n\n";
-
-    return 0;
-}*/
