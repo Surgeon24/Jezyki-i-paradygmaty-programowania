@@ -1,4 +1,5 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/project_1_erm.dir/src/calc.cpp.obj"
   "CMakeFiles/project_1_erm.dir/src/main.cpp.obj"
   "libproject_1_erm.dll.a"
   "project_1_erm.exe"

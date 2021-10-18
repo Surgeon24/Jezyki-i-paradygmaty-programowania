@@ -128,6 +128,30 @@ project_1_erm/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\project_1_erm.dir\build.make CMakeFiles/project_1_erm.dir/build
 .PHONY : project_1_erm/fast
 
+src/calc.obj: src/calc.cpp.obj
+.PHONY : src/calc.obj
+
+# target to build an object file
+src/calc.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\project_1_erm.dir\build.make CMakeFiles/project_1_erm.dir/src/calc.cpp.obj
+.PHONY : src/calc.cpp.obj
+
+src/calc.i: src/calc.cpp.i
+.PHONY : src/calc.i
+
+# target to preprocess a source file
+src/calc.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\project_1_erm.dir\build.make CMakeFiles/project_1_erm.dir/src/calc.cpp.i
+.PHONY : src/calc.cpp.i
+
+src/calc.s: src/calc.cpp.s
+.PHONY : src/calc.s
+
+# target to generate assembly for a file
+src/calc.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\project_1_erm.dir\build.make CMakeFiles/project_1_erm.dir/src/calc.cpp.s
+.PHONY : src/calc.cpp.s
+
 src/main.obj: src/main.cpp.obj
 .PHONY : src/main.obj
 
@@ -161,6 +185,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... project_1_erm
+	@echo ... src/calc.obj
+	@echo ... src/calc.i
+	@echo ... src/calc.s
 	@echo ... src/main.obj
 	@echo ... src/main.i
 	@echo ... src/main.s

@@ -80,6 +80,9 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="D:/Pet projects/Clion/simpleCalc/src/calc.cpp">
+			<Option target="project_1_erm"/>
+		</Unit>
 		<Unit filename="D:/Pet projects/Clion/simpleCalc/src/main.cpp">
 			<Option target="project_1_erm"/>
 		</Unit>

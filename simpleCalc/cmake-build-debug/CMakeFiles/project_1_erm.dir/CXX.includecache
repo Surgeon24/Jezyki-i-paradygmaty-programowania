@@ -6,11 +6,17 @@
 
 #IncludeRegexTransform: 
 
-D:/Pet projects/Clion/simpleCalc/src/main.cpp
+D:/Pet projects/Clion/simpleCalc/include/calc.h
 iostream
 -
 math.h
-D:/Pet projects/Clion/simpleCalc/src/math.h
+D:/Pet projects/Clion/simpleCalc/include/math.h
 sstream
 -
+
+D:/Pet projects/Clion/simpleCalc/src/calc.cpp
+
+D:/Pet projects/Clion/simpleCalc/src/main.cpp
+../include/calc.h
+D:/Pet projects/Clion/simpleCalc/include/calc.h
 
