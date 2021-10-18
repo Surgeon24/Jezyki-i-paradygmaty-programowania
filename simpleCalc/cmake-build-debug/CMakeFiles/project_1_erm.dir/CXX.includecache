@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+D:/Pet projects/Clion/simpleCalc/src/main.cpp
+iostream
+-
+math.h
+D:/Pet projects/Clion/simpleCalc/src/math.h
+sstream
+-
+
