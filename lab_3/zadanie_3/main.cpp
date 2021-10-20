@@ -8,6 +8,25 @@ void printpos (int *p_arr,int n){
     }
 }
 
+void mysort(int *pa, int *pb, int *pc, int *pd){
+    if (*pa > *pb)
+        swap(*pa,*pb);
+    if (*pb > *pc)
+        swap(*pb,*pc);
+    if(*pc > *pd)
+        swap(*pc,*pd);
+    if(*pa > *pb)
+        swap(*pa,*pb);
+    if(*pb>*pc)
+        swap(*pb,*pc);
+    if(*pa>*pb)
+        swap(*pa,*pb);
+}
+
+void mycopy(int x, int *w){
+    *w = x;
+}
+
 int main() {
     int x;
     cout << "Przekazywanie przez wskaznik\n"
@@ -33,9 +52,20 @@ int main() {
     }
     else if (x == 3){
         int a,b,c,d,e;
-        cout << "Wprowadz wartosci dla a,b,c,d,e: ";
-        cin >> a >> b >> c >> d >> e;
-                                            // tu mam dokonczyc
+        cout << "Wprowadz wartosci dla a,b,c,d: ";
+        cin >> a >> b >> c >> d;
+        int *pa = &a, *pb = &b, *pc = &c, *pd = &d;
+        mysort(pa,pb,pc,pd);
+        cout << endl << *pa << " " << *pb << " " << *pc << " " << *pd ;
+    }
+    else if (x == 4){
+        int x,z = 0;
+        int *w = &z;
+        cout << "Wprowadz wartosc x : ";
+        cin >> x;
+        cout << "wartosci przed kopiowaniem: x = " << x << ", z = " << z << endl;
+        mycopy(x,w);
+        cout << "wartosci po kopiowaniu: x = " << x << ", z = " << z;
     }
     return 0;
 }
