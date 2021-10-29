@@ -116,41 +116,41 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named Lib
+# Target rules for targets named Project_1_App
 
 # Build rule for target.
-Lib: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Lib
-.PHONY : Lib
+Project_1_App: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Project_1_App
+.PHONY : Project_1_App
 
 # fast build rule for target.
-Lib/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Lib.dir\build.make CMakeFiles/Lib.dir/build
-.PHONY : Lib/fast
+Project_1_App/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Project_1_App.dir\build.make CMakeFiles/Project_1_App.dir/build
+.PHONY : Project_1_App/fast
 
-D_/Pet_projects/Clion/Project1/src/lib.obj: D_/Pet_projects/Clion/Project1/src/lib.cpp.obj
-.PHONY : D_/Pet_projects/Clion/Project1/src/lib.obj
+main.obj: main.cpp.obj
+.PHONY : main.obj
 
 # target to build an object file
-D_/Pet_projects/Clion/Project1/src/lib.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Lib.dir\build.make CMakeFiles/Lib.dir/D_/Pet_projects/Clion/Project1/src/lib.cpp.obj
-.PHONY : D_/Pet_projects/Clion/Project1/src/lib.cpp.obj
+main.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Project_1_App.dir\build.make CMakeFiles/Project_1_App.dir/main.cpp.obj
+.PHONY : main.cpp.obj
 
-D_/Pet_projects/Clion/Project1/src/lib.i: D_/Pet_projects/Clion/Project1/src/lib.cpp.i
-.PHONY : D_/Pet_projects/Clion/Project1/src/lib.i
+main.i: main.cpp.i
+.PHONY : main.i
 
 # target to preprocess a source file
-D_/Pet_projects/Clion/Project1/src/lib.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Lib.dir\build.make CMakeFiles/Lib.dir/D_/Pet_projects/Clion/Project1/src/lib.cpp.i
-.PHONY : D_/Pet_projects/Clion/Project1/src/lib.cpp.i
+main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Project_1_App.dir\build.make CMakeFiles/Project_1_App.dir/main.cpp.i
+.PHONY : main.cpp.i
 
-D_/Pet_projects/Clion/Project1/src/lib.s: D_/Pet_projects/Clion/Project1/src/lib.cpp.s
-.PHONY : D_/Pet_projects/Clion/Project1/src/lib.s
+main.s: main.cpp.s
+.PHONY : main.s
 
 # target to generate assembly for a file
-D_/Pet_projects/Clion/Project1/src/lib.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Lib.dir\build.make CMakeFiles/Lib.dir/D_/Pet_projects/Clion/Project1/src/lib.cpp.s
-.PHONY : D_/Pet_projects/Clion/Project1/src/lib.cpp.s
+main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Project_1_App.dir\build.make CMakeFiles/Project_1_App.dir/main.cpp.s
+.PHONY : main.cpp.s
 
 # Help Target
 help:
@@ -160,10 +160,10 @@ help:
 	@echo ... depend
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... Lib
-	@echo ... D_/Pet_projects/Clion/Project1/src/lib.obj
-	@echo ... D_/Pet_projects/Clion/Project1/src/lib.i
-	@echo ... D_/Pet_projects/Clion/Project1/src/lib.s
+	@echo ... Project_1_App
+	@echo ... main.obj
+	@echo ... main.i
+	@echo ... main.s
 .PHONY : help
 
 

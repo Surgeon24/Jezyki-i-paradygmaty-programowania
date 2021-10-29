@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/Lib.dir/D_/Pet_projects/Clion/Project1/src/lib.cpp.obj"
+  "CMakeFiles/Lib.dir/D_/Pet_projects/Clion/Project1/Library/src/lib.cpp.obj"
+  "CMakeFiles/Lib.dir/main.cpp.obj"
   "libLib.a"
   "libLib.pdb"
 )

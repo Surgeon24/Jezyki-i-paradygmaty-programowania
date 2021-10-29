@@ -8,7 +8,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "D:/Pet projects/Clion/Project1/src/lib.cpp" "D:/Pet projects/Clion/Project1/App/cmake-build-debug/CMakeFiles/Lib.dir/D_/Pet_projects/Clion/Project1/src/lib.cpp.obj"
+  "D:/Pet projects/Clion/Project1/Library/src/lib.cpp" "D:/Pet projects/Clion/Project1/App/cmake-build-debug/CMakeFiles/Lib.dir/D_/Pet_projects/Clion/Project1/Library/src/lib.cpp.obj"
+  "D:/Pet projects/Clion/Project1/App/main.cpp" "D:/Pet projects/Clion/Project1/App/cmake-build-debug/CMakeFiles/Lib.dir/main.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

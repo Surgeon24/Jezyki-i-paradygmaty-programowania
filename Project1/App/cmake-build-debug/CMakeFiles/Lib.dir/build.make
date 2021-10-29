@@ -65,31 +65,47 @@ include CMakeFiles/Lib.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/Lib.dir/flags.make
 
-CMakeFiles/Lib.dir/D_/Pet_projects/Clion/Project1/src/lib.cpp.obj: CMakeFiles/Lib.dir/flags.make
-CMakeFiles/Lib.dir/D_/Pet_projects/Clion/Project1/src/lib.cpp.obj: CMakeFiles/Lib.dir/includes_CXX.rsp
-CMakeFiles/Lib.dir/D_/Pet_projects/Clion/Project1/src/lib.cpp.obj: D:/Pet\ projects/Clion/Project1/src/lib.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\Pet projects\Clion\Project1\App\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Lib.dir/D_/Pet_projects/Clion/Project1/src/lib.cpp.obj"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Lib.dir\D_\Pet_projects\Clion\Project1\src\lib.cpp.obj -c "D:\Pet projects\Clion\Project1\src\lib.cpp"
+CMakeFiles/Lib.dir/D_/Pet_projects/Clion/Project1/Library/src/lib.cpp.obj: CMakeFiles/Lib.dir/flags.make
+CMakeFiles/Lib.dir/D_/Pet_projects/Clion/Project1/Library/src/lib.cpp.obj: CMakeFiles/Lib.dir/includes_CXX.rsp
+CMakeFiles/Lib.dir/D_/Pet_projects/Clion/Project1/Library/src/lib.cpp.obj: D:/Pet\ projects/Clion/Project1/Library/src/lib.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\Pet projects\Clion\Project1\App\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Lib.dir/D_/Pet_projects/Clion/Project1/Library/src/lib.cpp.obj"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Lib.dir\D_\Pet_projects\Clion\Project1\Library\src\lib.cpp.obj -c "D:\Pet projects\Clion\Project1\Library\src\lib.cpp"
 
-CMakeFiles/Lib.dir/D_/Pet_projects/Clion/Project1/src/lib.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Lib.dir/D_/Pet_projects/Clion/Project1/src/lib.cpp.i"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\Pet projects\Clion\Project1\src\lib.cpp" > CMakeFiles\Lib.dir\D_\Pet_projects\Clion\Project1\src\lib.cpp.i
+CMakeFiles/Lib.dir/D_/Pet_projects/Clion/Project1/Library/src/lib.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Lib.dir/D_/Pet_projects/Clion/Project1/Library/src/lib.cpp.i"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\Pet projects\Clion\Project1\Library\src\lib.cpp" > CMakeFiles\Lib.dir\D_\Pet_projects\Clion\Project1\Library\src\lib.cpp.i
 
-CMakeFiles/Lib.dir/D_/Pet_projects/Clion/Project1/src/lib.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Lib.dir/D_/Pet_projects/Clion/Project1/src/lib.cpp.s"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\Pet projects\Clion\Project1\src\lib.cpp" -o CMakeFiles\Lib.dir\D_\Pet_projects\Clion\Project1\src\lib.cpp.s
+CMakeFiles/Lib.dir/D_/Pet_projects/Clion/Project1/Library/src/lib.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Lib.dir/D_/Pet_projects/Clion/Project1/Library/src/lib.cpp.s"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\Pet projects\Clion\Project1\Library\src\lib.cpp" -o CMakeFiles\Lib.dir\D_\Pet_projects\Clion\Project1\Library\src\lib.cpp.s
+
+CMakeFiles/Lib.dir/main.cpp.obj: CMakeFiles/Lib.dir/flags.make
+CMakeFiles/Lib.dir/main.cpp.obj: CMakeFiles/Lib.dir/includes_CXX.rsp
+CMakeFiles/Lib.dir/main.cpp.obj: ../main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\Pet projects\Clion\Project1\App\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Lib.dir/main.cpp.obj"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Lib.dir\main.cpp.obj -c "D:\Pet projects\Clion\Project1\App\main.cpp"
+
+CMakeFiles/Lib.dir/main.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Lib.dir/main.cpp.i"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\Pet projects\Clion\Project1\App\main.cpp" > CMakeFiles\Lib.dir\main.cpp.i
+
+CMakeFiles/Lib.dir/main.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Lib.dir/main.cpp.s"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\Pet projects\Clion\Project1\App\main.cpp" -o CMakeFiles\Lib.dir\main.cpp.s
 
 # Object files for target Lib
 Lib_OBJECTS = \
-"CMakeFiles/Lib.dir/D_/Pet_projects/Clion/Project1/src/lib.cpp.obj"
+"CMakeFiles/Lib.dir/D_/Pet_projects/Clion/Project1/Library/src/lib.cpp.obj" \
+"CMakeFiles/Lib.dir/main.cpp.obj"
 
 # External object files for target Lib
 Lib_EXTERNAL_OBJECTS =
 
-libLib.a: CMakeFiles/Lib.dir/D_/Pet_projects/Clion/Project1/src/lib.cpp.obj
+libLib.a: CMakeFiles/Lib.dir/D_/Pet_projects/Clion/Project1/Library/src/lib.cpp.obj
+libLib.a: CMakeFiles/Lib.dir/main.cpp.obj
 libLib.a: CMakeFiles/Lib.dir/build.make
 libLib.a: CMakeFiles/Lib.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="D:\Pet projects\Clion\Project1\App\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library libLib.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="D:\Pet projects\Clion\Project1\App\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX static library libLib.a"
 	$(CMAKE_COMMAND) -P CMakeFiles\Lib.dir\cmake_clean_target.cmake
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\Lib.dir\link.txt --verbose=$(VERBOSE)
 

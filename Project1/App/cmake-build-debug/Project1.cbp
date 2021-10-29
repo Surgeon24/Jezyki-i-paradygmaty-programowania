@@ -82,7 +82,13 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="D:/Pet projects/Clion/Project1/src/lib.cpp">
+		<Unit filename="D:/Pet projects/Clion/Project1/App/main.cpp">
+			<Option target="Lib"/>
+		</Unit>
+		<Unit filename="D:/Pet projects/Clion/Project1/Library/include/lib/lib.h">
+			<Option target="Lib"/>
+		</Unit>
+		<Unit filename="D:/Pet projects/Clion/Project1/Library/src/lib.cpp">
 			<Option target="Lib"/>
 		</Unit>
 		<Unit filename="D:/Pet projects/Clion/Project1/App/CMakeLists.txt">

@@ -1,7 +1,12 @@
-cmake_minimum_required(VERSION 3.20)
-project(Project1)
+cmake_minimum_required(VERSION 3.16)
 
-set(CMAKE_CXX_STANDARD 14)
+set(CMAKE_CXX_STANDARD  17)
+
+# Dodajemy ścieżkę, w której mają być wyszukiwane pliki nagłówkowe
 include_directories(../Library/include)
 
-add_library(Lib STATIC ../src/lib.cpp ../src/lib.cpp)
+# Dodajemy pliki do kompilacji
+add_executable(Project_1_App main.cpp)
+
+# Załączamy do naszej aplikacji biblioteki. Musi to być po add_executable
+target_link_libraries(Project_1_App Project_1_Lib)
