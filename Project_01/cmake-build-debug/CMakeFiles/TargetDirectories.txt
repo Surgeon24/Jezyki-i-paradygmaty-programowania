@@ -1,0 +1,4 @@
+D:/Pet projects/Clion/Project_01/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/Pet projects/Clion/Project_01/cmake-build-debug/CMakeFiles/Project_01.dir
+D:/Pet projects/Clion/Project_01/cmake-build-debug/CMakeFiles/matrix_lib.dir
+D:/Pet projects/Clion/Project_01/cmake-build-debug/CMakeFiles/rebuild_cache.dir
