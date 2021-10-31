@@ -9,6 +9,10 @@
 D:/Pet projects/Clion/Project_01/matrixApp/main.cpp
 iostream
 -
+string
+-
+sstream
+-
 ../matrixLib/matrix.h
 D:/Pet projects/Clion/Project_01/matrixLib/matrix.h
 
@@ -17,6 +21,8 @@ matrix.h
 D:/Pet projects/Clion/Project_01/matrixLib/matrix.h
 iostream
 -
+math.h
+D:/Pet projects/Clion/Project_01/matrixLib/math.h
 
 D:/Pet projects/Clion/Project_01/matrixLib/matrix.h
 

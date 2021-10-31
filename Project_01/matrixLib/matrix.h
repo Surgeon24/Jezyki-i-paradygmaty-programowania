@@ -6,12 +6,20 @@
 #define PROJECT_01_MATRIX_H
 
 namespace matrix {
-    void say_hello ();
+    void     help ();
     double** makeNew (int rows, int columns);
     void printMatrix (double **arr, int rows, int columns);
-    void addMatrix (double **arrA, double **arrB, int rows, int columns);
-    void subtractMatrix (double **arrA, double **arrB, int rows, int columns);
-    void multiplyMatrix (double **arrA, double **arrB, int rows, int columns1, int columns2);
+    double** addMatrix (double **arrA, double **arrB, int rows, int columns);
+    double** subtractMatrix (double **arrA, double **arrB, int rows, int columns);
+    double** multiplyMatrix (double **arrA, double **arrB, int rows, int columns1, int columns2);
+    double** multiplyByScalar (double **arrA, int rows, int columns, double scalar);
+    double** transpozeMatrix (double **arrA, int rows, int columns);
+    double** powerMatrix (double **arrA, int rows, int columns, unsigned power);
+    double   determinantMatrix (double **arrA, int rows, int columns);
+    bool     matrixIsDiagonal (double **arr, int rows);
+    void     swap (double *a, double *b);
+    double*  sortRow (double *arr, int columns);
+    double** sortRowsInMatrix (double **arr, int rows, int columns);
 }
 
 
