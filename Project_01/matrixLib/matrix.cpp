@@ -114,7 +114,6 @@ double** matrix::powerMatrix (double **arrA, int rows, int columns, unsigned pow
 
 double matrix::determinantMatrix (double **arrA, int rows, int rows2){
     double det = 0;
-    double answer;
     if (rows == 1) {
         det = arrA[0][0];
         return det;
