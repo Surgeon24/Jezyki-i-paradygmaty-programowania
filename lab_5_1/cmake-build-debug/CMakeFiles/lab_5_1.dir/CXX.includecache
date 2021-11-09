@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/Point.h
+iostream
+-
+
+D:/Pet projects/Clion/lab_5_1/src/main.cpp
+iostream
+-
+Point.h
+D:/Pet projects/Clion/lab_5_1/src/Point.h
+

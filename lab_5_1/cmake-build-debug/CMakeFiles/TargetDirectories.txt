@@ -1,0 +1,3 @@
+D:/Pet projects/Clion/lab_5_1/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/Pet projects/Clion/lab_5_1/cmake-build-debug/CMakeFiles/lab_5_1.dir
+D:/Pet projects/Clion/lab_5_1/cmake-build-debug/CMakeFiles/rebuild_cache.dir
