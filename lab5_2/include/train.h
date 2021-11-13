@@ -39,25 +39,10 @@ public:
     int getNumber();
 
     void setNumber(int number);
-    /*
-    double getPlaces();
 
-    void setPlaces(int places);
-    */
     void printData() const;
 
     void changePerson(int place, string newName, string newSurname) const;
-    /*
-    bool operator==(const Train &rhs) const;
-
-    bool operator!=(const Train &rhs) const;
-
-    Train operator+=(const Train &rhs) const;
-
-    Train operator+=(const double &rhs) const;
-
-    const string &getName() const;
-    */
 
     Train(Train &Train){
         *number = *Train.number;
