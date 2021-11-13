@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/train.h
+iostream
+-
+
+D:/Pet projects/Clion/lab5_2/src/train.cpp
+train.h
+D:/Pet projects/Clion/lab5_2/src/train.h
+

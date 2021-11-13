@@ -23,24 +23,30 @@ private:
     int *places = new int;
     //model of train
     string model;
-
+    //array of people
+    person *array;
 public:
     Train(int number, string name, int places, string model);
 
-    /*
-    Train(string name);
+    const string &getName() const;
 
-    void setName(string name);
+    void setName(string newName);
 
-    double getNumber();
+    const string &getModel() const;
+
+    void setModel(string newModel);
+
+    int getNumber();
 
     void setNumber(int number);
-
+    /*
     double getPlaces();
 
     void setPlaces(int places);
     */
     void printData() const;
+
+    void changePerson(int place, string newName, string newSurname) const;
     /*
     bool operator==(const Train &rhs) const;
 
@@ -52,6 +58,14 @@ public:
 
     const string &getName() const;
     */
+
+    Train(Train &Train){
+        *number = *Train.number;
+        name = Train.name;
+        *places = *Train.places;
+        model = Train.model;
+        array = Train.array;
+    }
 };
 
 #endif //LAB5_2_TRAIN_H
