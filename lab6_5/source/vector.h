@@ -4,10 +4,54 @@
 
 #include "math.h"
 
-class Vector {
+class Imaginary_v {
 private:
     double x, y;
 
+public:
+    Imaginary_v() {};
+    Imaginary_v(double x, double y) : x(x), y(y) {}
+
+    double length(){
+        return sqrt(x*x - y*y);
+    }
+
+    Imaginary_v operator+(const Imaginary_v &rhs) const {
+        return {x+rhs.x, y+rhs.y};
+    }
+
+    Imaginary_v operator-(const Imaginary_v &rhs) const {
+        return {x-rhs.x, y-rhs.y};
+    }
+
+    Imaginary_v przeciwny() const {
+        return {0, 0};
+    }
+
+    //mnozenie przez skalar
+    Imaginary_v operator*(double z) const {
+        return {x * z, y * z};
+    }
+
+    //porownywanie wektorow
+    void porownywanie(Imaginary_v v2) {
+        if(length() > v2.length())
+            std::cout << "pierwszy vector jest wiekszy";
+        else if (length() < v2.length())
+            std::cout << "drugi vector jest wiekszy";
+        else
+            std::cout << "vectory sa rowne";
+    }
+
+    void print(){
+        std::cout << "Re = " << x << ", Im = " << y << std::endl;
+    }
+};
+
+
+class Vector {
+private:
+    double x, y;
 public:
     Vector() {};
 
