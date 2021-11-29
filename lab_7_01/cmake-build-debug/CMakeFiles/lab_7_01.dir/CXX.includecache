@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+D:/Pet projects/Clion/lab_7_01/include/Figure.h
+iostream
+-
+
+D:/Pet projects/Clion/lab_7_01/include/Rectangle.h
+Figure.h
+D:/Pet projects/Clion/lab_7_01/include/Figure.h
+
+D:/Pet projects/Clion/lab_7_01/src/Rectangle.cpp
+../include/Rectangle.h
+D:/Pet projects/Clion/lab_7_01/include/Rectangle.h
+
