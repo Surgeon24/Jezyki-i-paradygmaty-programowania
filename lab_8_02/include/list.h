@@ -41,9 +41,12 @@ struct list {
     void printList() {
         if (is_empty()) return;
         Node* p = first;
+        int counter = 1;
         while (p) {
+            cout << counter << " ";
             p->val.getTitle();
             p = p->next;
+            counter++;
         }
         cout << endl;
     }

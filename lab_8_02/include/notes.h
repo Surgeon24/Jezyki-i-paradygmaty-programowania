@@ -11,10 +11,11 @@ public:
     Note(){}
 
     void getTitle() {
-        cout << "Title is : " << title << endl;
+        cout << "Title : " << title << endl;
     }
     void setTitle() {
         cout << "Print your title:\n";
+        cin.get();
         getline(cin, title);
     }
     void virtual getContent() = 0;
