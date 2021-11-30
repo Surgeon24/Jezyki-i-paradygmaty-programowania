@@ -27,12 +27,14 @@ int main(int argc, char *argv[]) {
             int **arrA = matrix::makeNewInt(rows, columns);
             int **arrB = matrix::makeNewInt(rows, columns);
             arrA = matrix::addMatrix(arrA, arrB, rows, columns);
+            std::cout << std::endl;
             matrix::printMatrix(arrA, rows, columns);
         }
         else if (type_of_array == 2) {
             double **arrA = matrix::makeNew(rows, columns);
             double **arrB = matrix::makeNew(rows, columns);
             arrA = matrix::addMatrix(arrA, arrB, rows, columns);
+            std::cout << std::endl;
             matrix::printMatrix(arrA, rows, columns);
         }
     }

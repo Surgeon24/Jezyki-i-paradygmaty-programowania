@@ -1,2 +1,0 @@
-C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\ar.exe qc liblab_8_1.a CMakeFiles/lab_8_1.dir/src/main.cpp.obj
-C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\ranlib.exe liblab_8_1.a

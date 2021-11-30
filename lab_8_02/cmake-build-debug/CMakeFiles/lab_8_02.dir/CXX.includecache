@@ -6,17 +6,15 @@
 
 #IncludeRegexTransform: 
 
-D:/Pet projects/Clion/lab_8_02/include/car.h
-iostream
-D:/Pet projects/Clion/lab_8_02/include/iostream
+D:/Pet projects/Clion/lab_8_02/include/list.h
 
-D:/Pet projects/Clion/lab_8_02/include/human.h
+D:/Pet projects/Clion/lab_8_02/include/notes.h
 iostream
 D:/Pet projects/Clion/lab_8_02/include/iostream
 
 D:/Pet projects/Clion/lab_8_02/src/main.cpp
-../include/car.h
-D:/Pet projects/Clion/lab_8_02/include/car.h
-../include/human.h
-D:/Pet projects/Clion/lab_8_02/include/human.h
+../include/notes.h
+D:/Pet projects/Clion/lab_8_02/include/notes.h
+../include/list.h
+D:/Pet projects/Clion/lab_8_02/include/list.h
 
