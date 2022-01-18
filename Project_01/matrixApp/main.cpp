@@ -72,7 +72,7 @@ int main(int argc, char *argv[]) {
         if (type_of_array == 1){
             int **arrA = matrix::makeNewInt(rows, columns1);
             int **arrB = matrix::makeNewInt(columns1, columns2);
-            int **arrC = matrix::makeNewInt(rows, columns2);
+            int **arrC ;//= matrix::makeNewInt(rows, columns2);
             arrC = matrix::multiplyMatrix(arrA, arrB, rows, columns1, columns2);
             matrix::printMatrix(arrC, rows, columns2);
         }
@@ -119,7 +119,7 @@ int main(int argc, char *argv[]) {
         }
         if (type_of_array == 1){
             int **arrA = matrix::makeNewInt(rows, columns);
-            int **arrB = matrix::makeNewInt(columns, rows);
+            int **arrB ;//= matrix::makeNewInt(columns, rows);
             arrB = matrix::transpozeMatrix(arrA, rows, columns);
             matrix::printMatrix(arrB, columns, rows);
         }

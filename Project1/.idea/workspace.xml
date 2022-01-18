@@ -12,7 +12,28 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c6819cd6-4833-474a-bfad-2a48a156d3dd" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/App/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/App/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../final_project/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../final_project/.idea/final_project.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../final_project/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../final_project/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../final_project/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../final_project/deck.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../final_project/deck.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../final_project/game.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../final_project/game.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../simpleCalc/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Project_01/cmake-build-debug/CMakeFiles/Project_01.dir/matrixApp/main.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/../Project_01/cmake-build-debug/CMakeFiles/Project_01.dir/matrixApp/main.cpp.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Project_01/cmake-build-debug/CMakeFiles/Project_01.dir/objects.a" beforeDir="false" afterPath="$PROJECT_DIR$/../Project_01/cmake-build-debug/CMakeFiles/Project_01.dir/objects.a" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Project_01/cmake-build-debug/Project_01.exe" beforeDir="false" afterPath="$PROJECT_DIR$/../Project_01/cmake-build-debug/Project_01.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Project_01/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/../Project_01/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Project_01/matrixApp/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../Project_01/matrixApp/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Project_01/matrixLib/matrix.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../Project_01/matrixLib/matrix.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab3/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/../lab3/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab_8_02/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/../lab_8_02/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab_9_01/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/../lab_9_01/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab_9_03/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/../lab_9_03/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../simpleCalc/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/../simpleCalc/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,7 +43,6 @@
   <component name="ClangdSettings">
     <option name="formatViaClangd" value="false" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
@@ -42,7 +62,7 @@
     <property name="cf.first.check.clang-format" value="false" />
     <property name="cidr.known.project.marker" value="true" />
     <property name="cmake.loaded.for.project" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Project_01" />
     <property name="settings.editor.selected.configurable" value="CPPToolchains" />
   </component>
   <component name="RecentsManager">
@@ -64,11 +84,6 @@
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="GradleAppRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
-      <method v="2">
-        <option name="com.jetbrains.cidr.cpp.gradle.execution.GradleNativeBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -81,6 +96,10 @@
       <workItem from="1634622573783" duration="2033000" />
       <workItem from="1635514476064" duration="2199000" />
       <workItem from="1635526933059" duration="71000" />
+      <workItem from="1641883500683" duration="19000" />
+      <workItem from="1642162339162" duration="6000" />
+      <workItem from="1642242378100" duration="27000" />
+      <workItem from="1642242456560" duration="12000" />
     </task>
     <servers />
   </component>

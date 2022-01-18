@@ -156,6 +156,10 @@ int** matrix::multiplyMatrix(int **arrA, int **arrB, int rows, int columns1, int
 }
 
 double** matrix::multiplyByScalar (double **arrA, int rows, int columns, double scalar){
+    if (scalar == 1){
+        return arrA;
+    }
+
     for (int i = 0; i < rows; i++){
         for (int j = 0; j < columns; j++){
             arrA[i][j] *= scalar;

@@ -6,15 +6,13 @@
 
 #IncludeRegexTransform: 
 
-D:/Pet projects/Clion/Project_01/matrixApp/main.cpp
+D:/Pet projects/Clion/Project_01/matrixLib/matrix.cpp
+matrix.h
+D:/Pet projects/Clion/Project_01/matrixLib/matrix.h
 iostream
 -
-string
--
-sstream
--
-../matrixLib/matrix.h
-D:/Pet projects/Clion/Project_01/matrixLib/matrix.h
+math.h
+D:/Pet projects/Clion/Project_01/matrixLib/math.h
 
 D:/Pet projects/Clion/Project_01/matrixLib/matrix.h
 
