@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/TimeMeasure.h
+chrono
+-
+
+D:/Pet projects/Clion/lab_12_01/src/main.cpp
+iostream
+-
+vector
+-
+random
+-
+TimeMeasure.h
+D:/Pet projects/Clion/lab_12_01/src/TimeMeasure.h
+thread
+D:/Pet projects/Clion/lab_12_01/src/thread
+

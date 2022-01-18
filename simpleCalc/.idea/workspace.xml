@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" ENABLED="true" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="9a04dff0-e5fb-445e-b291-5b8280be731f" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../final_project/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../final_project/.idea/final_project.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../final_project/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../final_project/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../final_project/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../final_project/deck.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../final_project/deck.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../final_project/game.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../final_project/game.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Project1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Project1/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Project_01/cmake-build-debug/CMakeFiles/Project_01.dir/matrixApp/main.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/../Project_01/cmake-build-debug/CMakeFiles/Project_01.dir/matrixApp/main.cpp.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Project_01/cmake-build-debug/CMakeFiles/Project_01.dir/objects.a" beforeDir="false" afterPath="$PROJECT_DIR$/../Project_01/cmake-build-debug/CMakeFiles/Project_01.dir/objects.a" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Project_01/cmake-build-debug/Project_01.exe" beforeDir="false" afterPath="$PROJECT_DIR$/../Project_01/cmake-build-debug/Project_01.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Project_01/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/../Project_01/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Project_01/matrixApp/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../Project_01/matrixApp/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Project_01/matrixLib/matrix.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../Project_01/matrixLib/matrix.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab3/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/../lab3/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab_8_02/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/../lab_8_02/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab_9_01/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/../lab_9_01/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab_9_03/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/../lab_9_03/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="23XbeNT7uAoAgfMLrHeri3NWXZR" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="RunOnceActivity.cidr.known.project.marker" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="cf.first.check.clang-format" value="false" />
+    <property name="cidr.known.project.marker" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Project1" />
+    <property name="settings.editor.selected.configurable" value="CPPToolchains" />
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="GradleAppRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="com.jetbrains.cidr.cpp.gradle.execution.GradleNativeBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9a04dff0-e5fb-445e-b291-5b8280be731f" name="Changes" comment="" />
+      <created>1641883474793</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1641883474793</updated>
+      <workItem from="1641883476886" duration="23000" />
+      <workItem from="1642242391303" duration="1000" />
+      <workItem from="1642242469426" duration="65000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

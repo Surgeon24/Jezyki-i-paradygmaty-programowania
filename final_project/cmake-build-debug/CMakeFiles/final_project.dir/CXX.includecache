@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+D:/Pet projects/Clion/final_project/deck.cpp
+iostream
+-
+fstream
+-
+deck.h
+D:/Pet projects/Clion/final_project/deck.h
+ctime
+-
+
+D:/Pet projects/Clion/final_project/deck.h
+

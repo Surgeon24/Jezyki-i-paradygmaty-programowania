@@ -1,0 +1,3 @@
+Abilities id:
+1 - none
+2 - medic
