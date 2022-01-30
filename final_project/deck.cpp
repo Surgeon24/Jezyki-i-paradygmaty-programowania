@@ -99,9 +99,28 @@ void Deck::newSequence(){
 }
 
 void Deck::peakSome(int number, Deck hand){
-    node *tmp;
-    node *tmp2;
+    std::cout << "start of PeakSome";
+    node *tnode = new node;
+    tnode = nullptr;
+    node *pnode = nullptr;
     for (int i = 0; i < number; i++){
+        if (i == 0) {
+            hand.first_card = this->first_card;
+            pnode = this->first_card->next;
+            this->first_card = this->first_card->next;
+            delete(this->first_card->next);
+            hand.first_card->next = tnode;
+            pnode = this->first_card->next;
+            std::cout <<"you peaked 1st card";
+        }
+        else{
+            tnode = pnode;
+            tnode->next = tnode;
+            pnode = pnode->next;
+            std::cout << "you peaked another card";
+        }
+        //////
+        /*
         if (i == 0) {
             tmp = this->first_card;
             this->first_card = this->first_card->next;
@@ -121,6 +140,7 @@ void Deck::peakSome(int number, Deck hand){
     while (tmp != nullptr){
         tmp->dCard.printCard();
             tmp = tmp->next;
+    */
     }
 }
 

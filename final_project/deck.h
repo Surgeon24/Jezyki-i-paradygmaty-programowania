@@ -9,14 +9,8 @@ struct card {
     std::string name;
     int attack;
     int ability;
-    std::string abilityDescription(int id){
-        if(id == 1)
-            return "none";
-        if(id == 2)
-            return "medic";
-    }
     void printCard(){
-        std::cout << name << "\nattack: " << attack << "\nability: " << abilityDescription(ability) << "\n\n";
+        std::cout << name << "\nattack: " << attack << "\nability: " << ability << "\n\n";
     }
 };
 
